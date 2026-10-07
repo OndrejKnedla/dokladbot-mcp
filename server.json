@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "cz.dokladbot/dokladbot",
+  "description": "Czech accounting for freelancers: invoices, VAT, tax deadlines, bank and data box.",
+  "title": "DokladBot",
+  "version": "1.0.0",
+  "websiteUrl": "https://dokladbot.cz/funkce/ai-asistent",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://dokladbot.cz/api/mcp" }
+  ]
+}
